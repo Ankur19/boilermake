@@ -6,7 +6,7 @@ function Unit(props){
         height:`${props.size}rem`,
         width:`${props.size}rem`,
         backgroundColor:props.color
-    }}></div>
+    }} className='border' id={props.id} onClick={props.onClick}></div>
 }
 
 export default Unit;

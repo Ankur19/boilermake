@@ -34,6 +34,14 @@
   padding:20px;
 }
 
+.obstacle{
+  background-color: red !important;
+}
+
+.visited{
+  background-color: black !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
