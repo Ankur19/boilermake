@@ -28,7 +28,7 @@ function Settings(props){
         </Row>
         <Row className='justify-content-center p-5 m-5'>
             <Col className='col-1'>
-                <p style={{fontSize:'25px'}} className='p-3'>Completion&nbsp;&nbsp; </p>
+                <p style={{fontSize:'25px'}} className='p-3'>{'Completion:  '}</p>
             </Col>
             <Col  className='col-1'>
             <p style={{fontSize:'25px'}} className='p-3'>{percent}% </p>
