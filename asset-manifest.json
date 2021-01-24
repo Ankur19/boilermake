@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/boilermake/static/css/main.df01ea08.chunk.css",
+    "main.js": "/boilermake/static/js/main.05dc5438.chunk.js",
+    "main.js.map": "/boilermake/static/js/main.05dc5438.chunk.js.map",
+    "runtime-main.js": "/boilermake/static/js/runtime-main.7cc3b7d3.js",
+    "runtime-main.js.map": "/boilermake/static/js/runtime-main.7cc3b7d3.js.map",
+    "static/css/2.2df730c5.chunk.css": "/boilermake/static/css/2.2df730c5.chunk.css",
+    "static/js/2.1bd0bbfe.chunk.js": "/boilermake/static/js/2.1bd0bbfe.chunk.js",
+    "static/js/2.1bd0bbfe.chunk.js.map": "/boilermake/static/js/2.1bd0bbfe.chunk.js.map",
+    "static/js/3.fc654e2d.chunk.js": "/boilermake/static/js/3.fc654e2d.chunk.js",
+    "static/js/3.fc654e2d.chunk.js.map": "/boilermake/static/js/3.fc654e2d.chunk.js.map",
+    "index.html": "/boilermake/index.html",
+    "static/css/2.2df730c5.chunk.css.map": "/boilermake/static/css/2.2df730c5.chunk.css.map",
+    "static/css/main.df01ea08.chunk.css.map": "/boilermake/static/css/main.df01ea08.chunk.css.map",
+    "static/js/2.1bd0bbfe.chunk.js.LICENSE.txt": "/boilermake/static/js/2.1bd0bbfe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cc3b7d3.js",
+    "static/css/2.2df730c5.chunk.css",
+    "static/js/2.1bd0bbfe.chunk.js",
+    "static/css/main.df01ea08.chunk.css",
+    "static/js/main.05dc5438.chunk.js"
+  ]
+}
