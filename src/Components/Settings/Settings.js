@@ -8,7 +8,7 @@ import FormControl from 'react-bootstrap/FormControl'
 import RangeSlider from 'react-bootstrap-range-slider';
 
 function Settings(props){
-    const [size, setSize] = useState(7);
+    const [size, setSize] = useState(8);
     const [percent, setPercent] = useState((props.completion/props.total)*100);
 
     useEffect(() => {
@@ -27,13 +27,22 @@ function Settings(props){
           </Col>  
         </Row>
         <Row className='justify-content-center p-5 m-5'>
-            <Col className='col-1'>
-                <p style={{fontSize:'25px'}} className='p-3'>{'Completion:  '}</p>
+            <Col className='col-2'>
+                <p style={{fontSize:'25px'}} className='p-1 mx-1'>{'Completion:  '}</p>
             </Col>
-            <Col  className='col-1'>
-            <p style={{fontSize:'25px'}} className='p-3'>{percent}% </p>
+            <Col  className='col-2'>
+            <p style={{fontSize:'25px'}} className='p-1 mx-1'>{percent}% </p>
             </Col>
         </Row>
+        <Row className='justify-content-center p-5 m-5'>
+            <Col className='col-2'>
+                <p style={{fontSize:'25px'}} className='p-1 mx-1'>{'Elapsed Time:  '}</p>
+            </Col>
+            <Col  className='col-2'>
+            <p style={{fontSize:'25px'}} className='p-1 mx-1'>{`${props.completion} `}minute</p>
+            </Col>
+        </Row>
+
         <Row className='justify-content-center p-5 m-5'>
             <Col className='col-2'>
                 <p style={{fontSize:'25px'}} className='p-3'>Size</p>
